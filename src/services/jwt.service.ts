@@ -11,7 +11,7 @@ export function sign(user: User[]): string {
 
 export async function auth(token: string): Promise<number | undefined> {
   try {
-    const { data: { id } } = jwt.verify(token, 'baianor') as unknown as IToken;
+    const { data: { id } } = jwt.verify(token, secret) as unknown as IToken;
 
     return id;
   } catch (err) {
