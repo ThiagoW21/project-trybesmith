@@ -31,7 +31,7 @@
 
   - `git clone git@github.com:ThiagoW21/project-trybesmith.git`.
   - Entre na pasta do repositório que você acabou de clonar:
-    - `project-trybesmith`
+    - `cd project-trybesmith`
 
   2. Instale as dependências [**Caso existam**]
 
